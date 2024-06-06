@@ -1,0 +1,4 @@
+/node_modules
+/.devcontainer
+/localhost.pem
+/localhost-key.pem
