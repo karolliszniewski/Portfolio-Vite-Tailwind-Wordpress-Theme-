@@ -4,7 +4,8 @@ module.exports = {
     './*.php',
     './inc/**/*.php',
     './templates/**/*.php',
-    './safelist.txt'
+    './safelist.txt',
+    './assets/**/*.css'
     //'./**/*.php', // recursive search for *.php (be aware on every file change it will go even through /node_modules which can be slow, read doc)
   ],
   safelist: [
@@ -14,7 +15,16 @@ module.exports = {
     //}
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'stone-gray': '#3A3A3E',
+        'background-base' : '#242428',
+        'yellow-theme': '#FFDD95'
+      },
+      height: {
+        'full-without-header': 'calc(100vh - 40px)',
+      },
+    }
   },
   plugins: []
 }

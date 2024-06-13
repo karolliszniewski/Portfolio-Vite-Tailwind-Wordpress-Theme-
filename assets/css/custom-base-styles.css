@@ -1,0 +1,26 @@
+/* add classes for tailwind using custom walker later */
+#header-menu ul{
+    display:flex;
+ }
+
+ #header-menu ul li a {
+    padding-left:.5rem;
+    padding-right:.5rem;
+    transition:color .3s ease-out;
+ }
+
+ #header-menu ul li a:hover {
+    color:#FFDD95;
+ }
+
+
+     .stripe {
+        position: absolute;
+        width: 210vh;
+        height: 20rem; /* height of the stripe */
+        background-color: #35353A; /* Tomato color */
+        transform: rotate(-63deg);
+        top: -4rem;
+        right: 0;
+        z-index:10;
+    }
