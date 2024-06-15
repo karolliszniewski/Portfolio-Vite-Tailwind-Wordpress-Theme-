@@ -1,26 +1,77 @@
 /* add classes for tailwind using custom walker later */
-#header-menu ul{
-    display:flex;
+
+@font-face {
+   font-family: 'Kaushan Script';
+   src: url('/assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
  }
 
- #header-menu ul li a {
-    padding-left:.5rem;
-    padding-right:.5rem;
-    transition:color .3s ease-out;
+ .nav_link {
+   @apply text-white text-base font-semibold p-2 h-full uppercase transition hover:text-yellow-theme select-none;
  }
 
- #header-menu ul li a:hover {
-    color:#FFDD95;
+ .blurDiv{
+   @apply blur-lg -z-40
  }
 
+ .transition-filter{
+   transition:filter .3s ease;
+ }
 
-     .stripe {
-        position: absolute;
-        width: 210vh;
-        height: 20rem; /* height of the stripe */
-        background-color: #35353A; /* Tomato color */
-        transform: rotate(-63deg);
-        top: -4rem;
-        right: 0;
-        z-index:10;
-    }
+ .nav_link_mobile{
+   @apply text-white hover:text-yellow-theme font-semibold h-12 block border-b border-[rgba(255,255,255,0.05)] flex justify-start items-center p-3
+ }
+
+ .stroke-4 {
+   stroke-width: 4;
+ }
+ 
+
+
+
+
+
+@layer utilities {
+   .h-screen-minus-header {
+     height: calc(100vh - 2rem); /* 3.5rem to równoważnik h-14 w Tailwind (14 * 0.25rem) */
+   }
+
+   .h-screen-minus-header-mobile {
+     height: calc(100vh - 2rem); /* 3.5rem to równoważnik h-14 w Tailwind (14 * 0.25rem) */
+   }
+
+
+   .container {
+       position: relative;
+       width: 300px;
+       height: 300px;
+       background-color: #fff;
+       border: 1px solid #ccc;
+       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       overflow: hidden;
+   }
+
+   .stripe-desktop {
+       position: absolute;
+       width: 310vh;
+       height: 20rem; /* height of the stripe */
+       background-color: #35353A; /* Tomato color */
+       transform: rotate(-63deg);
+       right: -50%;
+   }
+
+   .stripe-mobile{
+    position: absolute;
+    width: 310vh;
+    height: 20rem; /* height of the stripe */
+    background-color: #35353A; /* Tomato color */
+    transform: rotate(-63deg);
+    right: -250%;
+   }
+
+   .logo{
+       font-family: "Kaushan Script", cursive;
+   }
+}
+

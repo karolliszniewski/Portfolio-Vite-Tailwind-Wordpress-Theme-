@@ -22,7 +22,8 @@ module.exports = {
         'yellow-theme': '#FFDD95'
       },
       height: {
-        'full-without-header': 'calc(100vh - 40px)',
+        'full-without-header-mobile': 'calc(100vh - 3rem)',
+        'full-without-header-desktop': 'calc(100vh - 5rem)',
       },
     }
   },

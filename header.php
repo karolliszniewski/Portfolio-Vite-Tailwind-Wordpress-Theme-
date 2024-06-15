@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head() ?>
 </head>
-<body <?php body_class('bg-black') ?>>
+<body <?php body_class('bg-background-base') ?>>
 <?php wp_body_open(); ?>
 
-    <header class="flex-0 bg-slate-100 px-4 border shadow-md z-50">
-        <div class="max-w-screen-lg mx-auto flex justify-between items-center min-h-[40px]">
-            <div class="">
-                <a href="<?php echo home_url() ?>">Logo</a>
-            </div>
-            <div >
-                <?php wp_nav_menu( ['theme_location' => 'header-menu', 'menu_id' => 'header-menu',] );?>
+    <header class="h-12 md:h-20 flex justify-center items-center">
+        <div class="bg-stone-gray h-full w-full max-w-screen-xl mx-10">
+
+            <div  class="z-10">
+                <?php
+  wp_nav_menu(array(
+    'theme_location' => 'header-menu',
+    'menu_class' => 'flex w-full justify-between open_ul',
+    'container' => '',
+    'walker' => new KarolPortfolio\inc\Customwalker(),
+  ));
+                ?>
             </div>
         </div>
     </header>
