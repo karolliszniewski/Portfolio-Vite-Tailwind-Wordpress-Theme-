@@ -263,7 +263,7 @@ class Customwalker extends Walker
 		 * @param int      $depth     Depth of menu item. Used for padding.
 		 */
 		$title = apply_filters( 'nav_menu_item_title', $title, $menu_item, $args, $depth );
-        $attributes = ' class="nav_link"';
+        $attributes .= ' class="nav_link"';
     if (is_object($args)) {
         $item_output  = $args->before;
         $item_output .= '<a' . $attributes . '>';
