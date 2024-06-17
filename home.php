@@ -2,12 +2,11 @@
 
 
 <section id="hero" class="h-full-without-header-mobile md:h-full-without-header-desktop relative overflow-hidden flex items-center justify-center w-[100%] ">
-
-
-<div class="h-[100%] max-w-screen-xl mx-10 w-[100%]  grid grid-cols-1 md:grid-cols-2">
-<div class="absolute h-[100%] w-[100%] max-w-[1280px] overflow-hidden">
+<div class="absolute h-[120vh] w-[100%] overflow-hidden">
 <div class="stripe-mobile md:stripe-desktop -z-10"></div>
 </div>  
+
+<div class="h-[100%] max-w-screen-xl mx-10 w-[100%]  grid grid-cols-1 md:grid-cols-2">
     <div class="h-full w-full flex flex-col">
 
     <div class="m-auto ">
@@ -135,5 +134,9 @@
         <div id="card2" class="card h-16 w-96 bg-green-300"></div>
         <div id="card3" class="card h-16 w-96 bg-orange-300"></div>
       </section>
+
+
+
+      
 
 <?php get_footer() ?>
