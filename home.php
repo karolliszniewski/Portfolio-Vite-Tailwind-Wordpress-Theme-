@@ -124,17 +124,36 @@
 </section>
 
 
-
-
-<section
-        id="projects"
-        class="h-96 w-full bg-black flex justify-center items-center"
-      >
-        <div id="card1" class="card h-16 w-96 bg-red-300 -translate-x-32"></div>
-        <div id="card2" class="card h-16 w-96 bg-green-300"></div>
-        <div id="card3" class="card h-16 w-96 bg-orange-300"></div>
-      </section>
-
+<section class="mx-10">
+<div class="max-w-screen-xl  mx-auto">
+  <div class="w-full h-20">
+    <h2 class="text-yellow-theme font-bold text-5xl h-full flex items-center">Projects</h2>
+  </div>
+  <div id="projects" class="h-[70rem] md:h-auto w-full bg-[#242428] justify-center items-center grid grid-cols-1 md:flex">
+    <div id="card1" class="card h-[20rem] w-[90%] bg-[#121315] -translate-x-32 opacity-0 m-auto md:mr-10 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb]">
+      <img class="w-full h-full object-cover " src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\func.png" />
+      <div class="absolute bg-[#121315] bottom-0 w-full h-10 flex justify-center items-center">
+        <p class="text-white">Learn English APP</p>
+        <a href="#demo" target="__blank" class="ml-5 bg-yellow-theme px-2 inline-block font-semibold">Live Demo</a>
+      </div>
+    </div>
+    <div id="card2" class="card h-[20rem] w-[90%] bg-[#121315] opacity-0 m-auto md:my-2 md:mx-0 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb]">
+      <img class="w-full h-full object-cover " src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\grid.png" />
+      <div class="absolute bg-[#121315] bottom-0 w-full h-10 flex justify-center items-center">
+        <p class="text-white">CSS Grid Generator</p>
+        <a href="#demo" target="__blank" class="ml-5 bg-yellow-theme px-2 inline-block font-semibold">Live Demo</a>
+      </div>
+    </div>
+    <div id="card3" class="card h-[20rem] w-[90%] bg-[#121315] translate-x-32 opacity-0 m-auto md:ml-10 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb]">
+      <img class="w-full h-full object-cover " src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\wordpress.png" />
+      <div class="absolute bg-[#121315] bottom-0 w-full h-10 flex justify-center items-center">
+        <p class="text-white">WooCommerce Theme</p>
+        <a href="#demo" target="__blank" class="ml-5 bg-yellow-theme px-2 inline-block font-semibold">Live Demo</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
 
       
