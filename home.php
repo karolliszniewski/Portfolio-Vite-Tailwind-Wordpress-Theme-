@@ -177,21 +177,21 @@
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Social Media Projects</h2>
       </div>
       <div id="projects" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
-        <div id="card1" class="card -translate-x-32">
+        <div class="card opacity-100">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialYoutube.png" />
           <div class="card__info">
             <p class="text-white">Youtube Shorts</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
           </div>
         </div>
-        <div id="card2" class="card">
+        <div class="card opacity-100">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialFacebook.png" />
           <div class="card__info">
             <p class="text-white">Fanpage</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
           </div>
         </div>
-        <div id="card3" class="card translate-x-32">
+        <div class="card opacity-100">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialInstagram.png" />
           <div class="card__info">
             <p class="text-white">Instagram</p>
