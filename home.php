@@ -207,6 +207,18 @@
 
 
 
+<section class="bg-[#2F2F33]">
+  <div class="mx-10">
+    <div class="max-w-screen-xl mx-auto">
+      <div class="w-full h-20 flex items-center">
+        <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Skills</h2>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
       
