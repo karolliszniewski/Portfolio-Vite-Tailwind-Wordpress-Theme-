@@ -209,11 +209,41 @@
 
 <section class="bg-[#2F2F33]">
   <div class="mx-10">
-    <div class="max-w-screen-xl mx-auto">
-      <div class="w-full h-20 flex items-center">
-        <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Skills</h2>
+    <div class="max-w-screen-xl mx-auto ">
+      <div class="w-full h-20 flex items-center  ">
+        <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">WORK EXPERIENCE</h2>
       </div>
 
+<div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
+    <div class="text-[#959596] ml-14 relative -top-3">01/2016 – Present</div>
+    <div class="text-white ml-14 mt-2 text-2xl">Online Sales (Dropshipping)</div>
+    <div class="relative text-[#959596] ml-14 top-1 text-sm">Self-Employed</div>
+</div>
+
+
+<div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
+    <div class="text-[#959596] ml-14 relative -top-3">05/2014 - 10/2014</div>
+    <div class="text-white ml-14 mt-2 text-2xl">WAREHOUSE OPERATIVE</div>
+    <div class="relative text-[#959596] ml-14 top-1 text-sm">TAILORED RECRUITMENT SVS LTD </div>
+</div>
+
+<div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
+    <div class="text-[#959596] ml-14 relative -top-3">05/2013 – 07/2013</div>
+    <div class="text-white ml-14 mt-2 text-2xl">WAREHOUSE OPERATIVE</div>
+    <div class="relative text-[#959596] ml-14 top-1 text-sm">ASSIST RESOURCING UK LTD</div>
+</div>
+
+<div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
+    <div class="text-[#959596] ml-14 relative -top-3">05/2013 – 05/2013</div>
+    <div class="text-white ml-14 mt-2 text-2xl">DEPARTMENT INDUSTRY </div>
+    <div class="relative text-[#959596] ml-14 top-1 text-sm">GAP PERSONNEL</div>
+</div>
+
+<div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
+    <div class="text-[#959596] ml-14 relative -top-3">08/2012 - 11/2012</div>
+    <div class="text-white ml-14 mt-2 text-2xl">SEO Specialist (Internship)</div>
+    <div class="relative text-[#959596] ml-14 top-1 text-sm">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
+</div>
       </div>
     </div>
   </div>

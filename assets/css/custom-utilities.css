@@ -9,3 +9,15 @@ body {
         @apply underline;
     }
 }
+
+
+.border-with-circle::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8.5px;
+    width: 15px;
+    height: 15px;
+    background-color: #FFDD95;
+    border-radius: 50%;
+}
