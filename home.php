@@ -234,7 +234,7 @@
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-    <div class="text-[#959596] ml-14 relative -top-3">05/2013 – 05/2013</div>
+    <div class="text-[#959596] ml-14 relative -top-3">04/2013 – 05/2013</div>
     <div class="text-white ml-14 mt-2 text-2xl">DEPARTMENT INDUSTRY </div>
     <div class="relative text-[#959596] ml-14 top-1 text-sm">GAP PERSONNEL</div>
 </div>
@@ -250,7 +250,16 @@
 </section>
 
 
-
+<!-- Section 3 -->
+ <section class="h-96 ">
+  <div class="mx-10">
+    <div class="max-w-screen-xl mx-auto ">
+    <div class="w-full h-20 flex items-center  ">
+        <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">MY SKILLS</h2>
+      </div>
+    </div>
+  </div>
+ </section>
       
 
 <?php get_footer() ?>
