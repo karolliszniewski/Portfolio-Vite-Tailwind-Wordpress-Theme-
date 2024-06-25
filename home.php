@@ -143,7 +143,7 @@
             <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
           </div>
         </div>
-        <div id="card2" class="card">
+        <div id="card2" class="card translate-y-32">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\grid.png" />
           <div class="card__info">
             <p class="text-white">CSS Grid Generator</p>
@@ -176,22 +176,22 @@
       <div class="w-full h-20 flex items-center">
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Social Media Projects</h2>
       </div>
-      <div id="projects" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
-        <div class="card opacity-100">
+      <div id="projects2" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
+        <div id="card4" class="card relative -translate-x-32 opacity-100">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialYoutube.png" />
           <div class="card__info">
             <p class="text-white">Youtube Shorts</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
           </div>
         </div>
-        <div class="card opacity-100">
+        <div id="card5" class="card relative translate-y-32 opacity-100">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialFacebook.png" />
           <div class="card__info">
             <p class="text-white">Fanpage</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
           </div>
         </div>
-        <div class="card opacity-100">
+        <div id="card6" class="card relative translate-x-32 opacity-100">
           <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialInstagram.png" />
           <div class="card__info">
             <p class="text-white">Instagram</p>
@@ -209,40 +209,40 @@
 
 <section class="bg-[#2F2F33]">
   <div class="mx-10">
-    <div class="max-w-screen-xl mx-auto ">
+    <div id="experience" class="max-w-screen-xl mx-auto ">
       <div class="w-full h-20 flex items-center  ">
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">WORK EXPERIENCE</h2>
       </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-    <div class="text-[#959596] ml-14 relative -top-3">01/2016 – Present</div>
-    <div class="text-white ml-14 mt-2 text-2xl">Online Sales (Dropshipping)</div>
-    <div class="relative text-[#959596] ml-14 top-1 text-sm">Self-Employed</div>
+    <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – Present</div>
+    <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16">Online Sales (Dropshipping)</div>
+    <div id="experience-company1" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
 </div>
 
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-    <div class="text-[#959596] ml-14 relative -top-3">05/2014 - 10/2014</div>
-    <div class="text-white ml-14 mt-2 text-2xl">WAREHOUSE OPERATIVE</div>
-    <div class="relative text-[#959596] ml-14 top-1 text-sm">TAILORED RECRUITMENT SVS LTD </div>
+    <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2014 - 10/2014</div>
+    <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">WAREHOUSE OPERATIVE</div>
+    <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">TAILORED RECRUITMENT SVS LTD </div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-    <div class="text-[#959596] ml-14 relative -top-3">05/2013 – 07/2013</div>
-    <div class="text-white ml-14 mt-2 text-2xl">WAREHOUSE OPERATIVE</div>
-    <div class="relative text-[#959596] ml-14 top-1 text-sm">ASSIST RESOURCING UK LTD</div>
+    <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2013 – 07/2013</div>
+    <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">WAREHOUSE OPERATIVE</div>
+    <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">ASSIST RESOURCING UK LTD</div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-    <div class="text-[#959596] ml-14 relative -top-3">04/2013 – 05/2013</div>
-    <div class="text-white ml-14 mt-2 text-2xl">DEPARTMENT INDUSTRY </div>
-    <div class="relative text-[#959596] ml-14 top-1 text-sm">GAP PERSONNEL</div>
+    <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2013 – 05/2013</div>
+    <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">DEPARTMENT INDUSTRY </div>
+    <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">GAP PERSONNEL</div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-    <div class="text-[#959596] ml-14 relative -top-3">08/2012 - 11/2012</div>
-    <div class="text-white ml-14 mt-2 text-2xl">SEO Specialist (Internship)</div>
-    <div class="relative text-[#959596] ml-14 top-1 text-sm">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
+    <div id="experience-date5" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
+    <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">SEO Specialist (Internship)</div>
+    <div id="experience-company5" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
 </div>
       </div>
     </div>

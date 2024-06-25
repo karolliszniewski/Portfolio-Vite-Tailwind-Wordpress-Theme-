@@ -26,7 +26,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-4 text-white relative left-2 stroke-4 relative bottom-0"
+              class="size-4 text-white left-2 stroke-4 relative bottom-0"
               width="15px"
             >
               <path
