@@ -67,3 +67,15 @@ gsap.to(`#experience-company${i}`, {
 })
 
 }
+
+
+gsap.to(`.skills__border`, {
+    x:0,
+    y:0,
+    opacity:1,
+    duration:1,
+    rotate:0,
+    
+
+    scrollTrigger:"#skills"
+})

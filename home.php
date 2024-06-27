@@ -216,32 +216,32 @@
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – Present</div>
-    <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16">Online Sales (Dropshipping)</div>
+    <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
     <div id="experience-company1" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
 </div>
 
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2014 - 10/2014</div>
-    <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">WAREHOUSE OPERATIVE</div>
+    <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
     <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">TAILORED RECRUITMENT SVS LTD </div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2013 – 07/2013</div>
-    <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">WAREHOUSE OPERATIVE</div>
+    <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
     <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">ASSIST RESOURCING UK LTD</div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2013 – 05/2013</div>
-    <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">DEPARTMENT INDUSTRY </div>
+    <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> DEPARTMENT INDUSTRY </div>
     <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">GAP PERSONNEL</div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date5" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
-    <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10">SEO Specialist (Internship)</div>
+    <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
     <div id="experience-company5" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
 </div>
       </div>
@@ -251,12 +251,193 @@
 
 
 <!-- Section 3 -->
- <section class="h-96 ">
+ <section id="skills" class="h-96">
   <div class="mx-10">
     <div class="max-w-screen-xl mx-auto ">
     <div class="w-full h-20 flex items-center  ">
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">MY SKILLS</h2>
+
+
       </div>
+      
+      <div class="h-auto w-full flex flex-wrap  justify-center">
+        
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\skillsWebp\wordpresslogo.webp" />
+              </div>
+              <p class="skills__text">Wordpress</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[2.5rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/figma.webp" />
+              </div>
+              <p class="skills__text">Figma</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/reactlogo.webp" />
+              </div>
+              <p class="skills__text">React Native</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[8rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/LaravelLogo.webp" />
+              </div>
+              <p class="skills__text">Laravel</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[7rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/seoLogo.webp" />
+              </div>
+              <p class="skills__text">SEO</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[6rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/phpLogo.webp" />
+              </div>
+              <p class="skills__text">PHP</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[5rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/jqueryLogo2.webp" />
+              </div>
+              <p class="skills__text">Jquery</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[5rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/Mysqllogo.webp" />
+              </div>
+              <p class="skills__text">Mysql</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/ubuntuLogo.webp" />
+              </div>
+              <p class="skills__text">Ubuntu</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[5rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/vscodeLogo.webp" />
+              </div>
+              <p class="skills__text">VS Code</p>
+            </div>
+            
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/webpacklogo.webp" />
+              </div>
+              <p class="skills__text">Webpack</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/viteLogo.webp" />
+              </div>
+              <p class="skills__text">Vite</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[3rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/JavaScriptLogo.webp" />
+              </div>
+              <p class="skills__text">JavaScript</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[3rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/cssLogo.webp" />
+              </div>
+              <p class="skills__text">CSS</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[3rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/facebookadsLogo.webp" />
+              </div>
+              <p class="skills__text">Facebook ADS</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[7rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/CsharpLogo.webp" />
+              </div>
+              <p class="skills__text">Csharp</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[3rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/seleniumLogo.webp" />
+              </div>
+              <p class="skills__text">Selenium</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/npmLogo.webp" />
+              </div>
+              <p class="skills__text">NPM</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[6rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/searchConsoleLogo.webp" />
+              </div>
+              <p class="skills__text">Search Console</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[3.5rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/githubWhiteLogo.webp" />
+              </div>
+              <p class="skills__text">Github</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[3.5rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/htmlLogo.webp" />
+              </div>
+              <p class="skills__text">HTML</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/ServerManagement.webp" />
+              </div>
+              <p class="skills__text">Server Management</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/VueLogo.webp" />
+              </div>
+              <p class="skills__text">Vue</p>
+            </div>
+
+            <div class="skills__border">
+              <div class="skills__container"> 
+                <img class="w-[4rem]" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/WebsiteMigration.webp" />
+              </div>
+              <p class="skills__text">Website Migration</p>
+            </div>
+
+
+
+
+
+            
+
+      
+        </div>
     </div>
   </div>
  </section>

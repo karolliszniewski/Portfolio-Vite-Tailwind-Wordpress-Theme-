@@ -15,4 +15,17 @@
     .card__btn{
         @apply ml-5 bg-yellow-theme px-2 inline-block font-semibold rounded-sm;
     }
+
+
+    .skills__border{
+        @apply h-64 w-[9.5rem] m-3 translate-x-32 opacity-0
+    }
+
+    .skills__container{
+        @apply h-56 w-[10rem] border border-[#696969] rounded-full overflow-hidden flex justify-center items-center transition-all hover:border-yellow-theme
+    }
+
+    .skills__text{
+        @apply text-white w-full flex items-center justify-center mt-3
+    }
 }
