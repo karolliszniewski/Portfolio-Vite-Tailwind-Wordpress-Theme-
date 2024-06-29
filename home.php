@@ -115,7 +115,7 @@
     
     <div class="h-full w-full  items-center justify-center hidden md:flex">        
       <img
-        src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\karolLiszniewski-photo.png"
+        src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\karolLiszniewski-photo.webp"
         alt=""
         srcset=""
       />
@@ -137,21 +137,21 @@
       </div>
       <div id="projects" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
         <div id="card1" class="card -translate-x-32">
-          <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\func.png" />
+          <img class="card__img" alt="Preview english learning app" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\func.webp" />
           <div class="card__info">
             <p class="text-white">Learn English APP</p>
             <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
           </div>
         </div>
         <div id="card2" class="card translate-y-32">
-          <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\grid.png" />
+          <img class="card__img" alt="Preview css grid generator porfolio Karol Liszniewski" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\grid.webp" />
           <div class="card__info">
             <p class="text-white">CSS Grid Generator</p>
             <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
           </div>
         </div>
         <div id="card3" class="card translate-x-32">
-          <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\wordpress.png" />
+          <img class="card__img" alt="preview wordpress template made by Karol Liszniewski" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\wordpress.webp" />
           <div class="card__info">
             <p class="text-white">WooCommerce Theme</p>
             <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
@@ -178,21 +178,21 @@
       </div>
       <div id="projects2" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
         <div id="card4" class="card relative -translate-x-32 opacity-100">
-          <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialYoutube.png" />
+          <img class="card__img" alt="Screenshot of the YouTube Studio admin panel displaying chart statistics" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialYoutube.webp" />
           <div class="card__info">
             <p class="text-white">Youtube Shorts</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
           </div>
         </div>
         <div id="card5" class="card relative translate-y-32 opacity-100">
-          <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialFacebook.png" />
+          <img class="card__img" alt="fanpage for besthomedecor retalet to products" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialFacebook.webp" />
           <div class="card__info">
             <p class="text-white">Fanpage</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
           </div>
         </div>
         <div id="card6" class="card relative translate-x-32 opacity-100">
-          <img class="card__img" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialInstagram.png" />
+          <img class="card__img" alt="BestHomeDecor instagram, Products display" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialInstagram.webp" />
           <div class="card__info">
             <p class="text-white">Instagram</p>
             <a href="#demo" target="__blank" class="card__btn">Read More</a>
@@ -216,32 +216,32 @@
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – Present</div>
-    <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
+    <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
     <div id="experience-company1" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
 </div>
 
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2014 - 10/2014</div>
-    <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
+    <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
     <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">TAILORED RECRUITMENT SVS LTD </div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2013 – 07/2013</div>
-    <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
+    <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
     <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">ASSIST RESOURCING UK LTD</div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2013 – 05/2013</div>
-    <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> DEPARTMENT INDUSTRY </div>
+    <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> DEPARTMENT INDUSTRY </div>
     <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">GAP PERSONNEL</div>
 </div>
 
 <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
     <div id="experience-date5" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
-    <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
+    <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="Poland flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
     <div id="experience-company5" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
 </div>
       </div>
@@ -260,7 +260,7 @@
 
       </div>
       
-      <div class="h-auto w-full flex flex-wrap  justify-center">
+      <div class="h-auto w-full flex flex-wrap  justify-center mb-10 md:mb-0">
         
             <div class="skills__border">
               <div class="skills__container"> 
@@ -464,12 +464,7 @@
  </section>
 
 
- <section  class="h-20 w-full mt-5 bg-[#2F2F33]">
-  <div class="mx-10 h-full">
-    <div class="max-w-screen-xl mx-auto flex h-full items-center">
-    <p class="text-white">Karol Liszniewski © 2024 All Rights Reserved.</p>
-    </div>
-  </div>
+
       
 
 <?php get_footer() ?>
