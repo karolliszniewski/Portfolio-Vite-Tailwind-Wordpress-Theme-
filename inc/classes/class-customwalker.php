@@ -218,8 +218,12 @@ class Customwalker extends Walker
 			if ( get_privacy_policy_url() === $menu_item->url ) {
 				$atts['rel'] = empty( $atts['rel'] ) ? 'privacy-policy' : $atts['rel'] . ' privacy-policy';
 			}
-
-			$atts['href'] = $menu_item->url;
+			if(strpos($menu_item->url, "#" ) >= 1){
+				$atts['href'] = home_url().$menu_item->url;
+			}else{
+				$atts['href'] = $menu_item->url;
+			}
+			
 		} else {
 			$atts['href'] = '';
 		}

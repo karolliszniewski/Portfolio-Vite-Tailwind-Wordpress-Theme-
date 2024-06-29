@@ -125,7 +125,7 @@
 
 
 
-<section class="bg-[#2F2F33]">
+<section id="Projects" class="bg-[#2F2F33]">
   <div class="mx-10">
     <div class="max-w-screen-xl mx-auto">
       <div class="w-full h-20 flex items-center">
