@@ -207,7 +207,7 @@
 
 
 
-<section class="bg-[#2F2F33]">
+<section id="Experience" class="bg-[#2F2F33]">
   <div class="mx-10">
     <div id="experience" class="max-w-screen-xl mx-auto ">
       <div class="w-full h-20 flex items-center  ">
@@ -251,7 +251,7 @@
 
 
 <!-- Section 3 -->
- <section id="skills" class="h-auto">
+ <section id="Myskills" class="h-auto">
   <div class="mx-10">
     <div class="max-w-screen-xl mx-auto ">
     <div class="w-full h-20 flex items-center  ">

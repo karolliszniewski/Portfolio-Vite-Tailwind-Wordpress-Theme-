@@ -77,5 +77,5 @@ gsap.to(`.skills__border`, {
     rotate:0,
     
 
-    scrollTrigger:"#skills"
+    scrollTrigger:"#Myskills"
 })
