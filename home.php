@@ -15,11 +15,7 @@
               Passionate <span class="text-yellow-theme">coder</span>
             </h1>
             <span class="text-[#CCCCCC] relative top-3"
-              >Both back-end and front-end development are equally enjoyable to
-              me. The greatest satisfaction comes from creating a complete
-              product from start to finish. Experimenting with various setups
-              and technologies is something I love, and learning new skills is
-              always a pleasure.</span
+              >I've always been fascinated by websites, both the web development side of things and the many other aspects that go into making a website what it is. If you check out my skills section, you'll see the technologies I use and the areas I'm interested in.</span
             >
             <div
               class="h-[20rem] w-full flex justify-center items-center"
@@ -116,7 +112,7 @@
     <div class="h-full w-full  items-center justify-center hidden md:flex">        
       <img
         src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\karolLiszniewski-photo.webp"
-        alt=""
+        alt="karol liszniewski photo"
         srcset=""
       />
     </div>
@@ -140,21 +136,21 @@
           <img class="card__img" alt="Preview english learning app" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\func.webp" />
           <div class="card__info">
             <p class="text-white">Learn English APP</p>
-            <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
+            <a href="https://functional-skills-app.creativevault.ovh/" target="__blank" class="card__btn">Live Demo</a>
           </div>
         </div>
         <div id="card2" class="card translate-y-32">
           <img class="card__img" alt="Preview css grid generator porfolio Karol Liszniewski" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\grid.webp" />
           <div class="card__info">
             <p class="text-white">CSS Grid Generator</p>
-            <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
+            <a href="https://codepen.io/karolliszniewski/pen/jOXELpy" target="__blank" class="card__btn">Live Demo</a>
           </div>
         </div>
         <div id="card3" class="card translate-x-32">
           <img class="card__img" alt="preview wordpress template made by Karol Liszniewski" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\wordpress.webp" />
           <div class="card__info">
             <p class="text-white">WooCommerce Theme</p>
-            <a href="#demo" target="__blank" class="card__btn">Live Demo</a>
+            <a href="https://best-home-decor.co.uk/product/dragon-heart-as-23cm-anne-stokes-dragon-heart-candle-holder/" target="__blank" class="card__btn">Live Demo</a>
           </div>
         </div>
       </div>
