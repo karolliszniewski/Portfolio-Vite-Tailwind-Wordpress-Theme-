@@ -1,5 +1,7 @@
 @layer components {
-
+    .post{
+        @apply  w-[33%]
+    }
     .card {
         @apply h-[20rem] w-[95%] bg-[#121315] opacity-0 m-auto mb-5 lg:mr-10 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb];
     }
