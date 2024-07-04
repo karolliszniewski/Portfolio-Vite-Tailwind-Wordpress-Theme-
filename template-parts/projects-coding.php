@@ -17,6 +17,10 @@
         $i = 0;
         if ($posts) :
             foreach ($posts as $post) : setup_postdata($post); ?>
+            <?php $thumbnail_id = get_post_thumbnail_id($post->ID);
+                  $thumbnail_url = get_the_post_thumbnail_url($post->ID);
+                  $thumbnail_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+                   ?>
               <?php $i++; ?>
               <div class="post">
                 <div id="card1" class="card 
@@ -34,7 +38,7 @@
                 }
                 ?>
                 ">
-                  <img class="card__img" alt="Preview english learning app" src="<?= get_the_post_thumbnail_url() ?>" />
+                  <img class="card__img" alt="<?= esc_attr($thumbnail_alt) ?>" src="<?= esc_attr($thumbnail_url) ?>" />
                   <h2><?php the_title(); ?></h2>
                   <div class="card__info">
                     <p class="text-white"><?php the_title(); ?></p>
