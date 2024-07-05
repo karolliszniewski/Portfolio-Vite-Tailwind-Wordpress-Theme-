@@ -131,38 +131,9 @@
 
 <!-- section 2 -->
 
-<section class="">
-  <div class="mx-10">
-    <div class="max-w-screen-xl mx-auto">
-      <div class="w-full h-20 flex items-center">
-        <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Social Media Projects</h2>
-      </div>
-      <div id="projects2" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
-        <div id="card4" class="card relative -translate-x-32 opacity-100">
-          <img class="card__img" alt="Screenshot of the YouTube Studio admin panel displaying chart statistics" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialYoutube.webp" />
-          <div class="card__info">
-            <p class="text-white">Youtube Shorts</p>
-            <a href="#demo" target="__blank" class="card__btn">Read More</a>
-          </div>
-        </div>
-        <div id="card5" class="card relative translate-y-32 opacity-100">
-          <img class="card__img" alt="fanpage for besthomedecor retalet to products" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialFacebook.webp" />
-          <div class="card__info">
-            <p class="text-white">Fanpage</p>
-            <a href="#demo" target="__blank" class="card__btn">Read More</a>
-          </div>
-        </div>
-        <div id="card6" class="card relative translate-x-32 opacity-100">
-          <img class="card__img" alt="BestHomeDecor instagram, Products display" src="<?= PORTFOLIOKAROL_DIR_URI?>\assets\img\socialInstagram.webp" />
-          <div class="card__info">
-            <p class="text-white">Instagram</p>
-            <a href="#demo" target="__blank" class="card__btn">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+<?php get_template_part('template-parts/projects-social');?>
+
 
 
 
