@@ -8,7 +8,7 @@
 
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Coding Projects</h2>
       </div>
-      <div id="Projects" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
+      <div id="Projects" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 md:flex mb-4">
         <?php
         $posts = get_posts(array(
             'category_name' => 'projects',

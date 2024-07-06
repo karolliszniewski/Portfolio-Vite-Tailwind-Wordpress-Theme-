@@ -4,7 +4,7 @@
       <div class="w-full h-20 flex items-center">
       <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Social Media Projects</h2>
       </div>
-      <div id="projects2" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 lg:flex mb-4">
+      <div id="projects2" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 md:flex mb-4">
         <?php
         $posts = get_posts(array(
             'category_name' => 'social',
