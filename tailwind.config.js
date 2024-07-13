@@ -4,6 +4,7 @@ module.exports = {
     './*.php',
     './inc/**/*.php',
     './templates/**/*.php',
+    './template-parts/*.php',
     './safelist.txt',
     './assets/**/*.css'
     //'./**/*.php', // recursive search for *.php (be aware on every file change it will go even through /node_modules which can be slow, read doc)

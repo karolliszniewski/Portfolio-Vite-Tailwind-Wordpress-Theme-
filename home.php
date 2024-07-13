@@ -57,18 +57,12 @@
   </div>
 </section>
 
+
+<!-- Coding projects -->
 <?php get_template_part('template-parts/projects-coding'); ?>
 
 
-
-
-
-
-
-
-
-<!-- section 2 -->
-
+<!-- Social Media projects -->
 
 <?php get_template_part('template-parts/projects-social'); ?>
 

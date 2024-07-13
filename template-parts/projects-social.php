@@ -4,7 +4,7 @@
       <div class="w-full h-20 flex items-center">
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Social Media Projects</h2>
       </div>
-      <div id="projects2" class="h-[65rem] lg:h-auto w-full justify-center items-center grid grid-cols-1 md:flex mb-4">
+      <div id="projects2" class="h-[65rem] md:h-auto w-full justify-center items-center grid grid-cols-1 md:flex mb-4">
         <?php
         $posts = get_posts(array(
           'category_name' => 'social',
@@ -19,17 +19,17 @@
             ?>
             <?php $i++; ?>
             <div class="post">
-              <div id="card4" class="card 
+              <div id="card1" class="card animateCard2" style="
                 <?php
                 switch ($i) {
                   case 1:
-                    echo "-translate-x-32";
+                    echo "transform:translateX(-8rem)";
                     break;
                   case 2:
-                    echo "translate-y-32";
+                    echo "transform:translateY(8rem)";
                     break;
                   case 3:
-                    echo "translate-x-32";
+                    echo "transform:translateX(8rem)";
                     break;
                 }
                 ?>

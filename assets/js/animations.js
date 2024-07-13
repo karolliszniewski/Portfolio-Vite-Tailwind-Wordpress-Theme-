@@ -4,25 +4,21 @@ import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger)
 
-// project section 1
-for(let i = 0;i<=3;i++)
-{
-gsap.to(`#card${i}`, {
-    x:0,
-    y:0,
-    opacity:1,
-    duration:1,
-    rotate:0,
+// Projects Coding
+    gsap.to(`.animateCard1`, {
+        x:0,
+        y:0,
+        opacity:1,
+        duration:1,
+        rotate:0,
+        
     
+        scrollTrigger:"#projects"
+    })
 
-    scrollTrigger:"#projects"
-})
-}
 
-// project section 2
-for(let i = 4;i<=6;i++)
-    {
-    gsap.to(`#card${i}`, {
+    // Projects Social
+    gsap.to(`.animateCard2`, {
         x:0,
         y:0,
         opacity:1,
@@ -32,7 +28,6 @@ for(let i = 4;i<=6;i++)
     
         scrollTrigger:"#projects2"
     })
-    }
 
 
 for(let i = 1;i<=5;i++){
