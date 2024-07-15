@@ -45,7 +45,7 @@
           <?php endforeach;
           wp_reset_postdata(); // Reset the global post object so that the rest of the page works correctly.
         else : ?>
-          <p><?php esc_html_e('No posts found in the projects category.', 'your-textdomain'); ?></p>
+          <p><?php esc_html_e('No posts found in the projects.', 'your-textdomain'); ?></p>
         <?php endif; ?>
       </div>
     </div>
