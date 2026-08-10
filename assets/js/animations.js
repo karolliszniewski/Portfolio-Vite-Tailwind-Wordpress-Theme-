@@ -30,7 +30,7 @@ gsap.registerPlugin(ScrollTrigger)
     })
 
 
-for(let i = 1;i<=5;i++){
+for(let i = 1;i<=4;i++){
 gsap.to(`#experience-date${i}`, {
     y:0,
     x:0,

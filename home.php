@@ -79,34 +79,27 @@
       </div>
 
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – Present</div>
-        <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
+        <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2025 – Present</div>
+        <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Freelance Web Developer</div>
         <div id="experience-company1" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
       </div>
 
-
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2014 - 10/2014</div>
-        <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
-        <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">TAILORED RECRUITMENT SVS LTD </div>
+        <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">09/2024 – 02/2025</div>
+        <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Junior Magento Backend Developer</div>
+        <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Aware Digital</div>
       </div>
 
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2013 – 07/2013</div>
-        <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
-        <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">ASSIST RESOURCING UK LTD</div>
+        <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – 09/2024</div>
+        <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
+        <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
       </div>
 
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2013 – 05/2013</div>
-        <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> DEPARTMENT INDUSTRY </div>
-        <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">GAP PERSONNEL</div>
-      </div>
-
-      <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date5" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
-        <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="Poland flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
-        <div id="experience-company5" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
+        <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
+        <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="Poland flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
+        <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
       </div>
     </div>
   </div>
