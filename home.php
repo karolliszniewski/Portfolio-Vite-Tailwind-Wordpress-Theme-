@@ -17,7 +17,7 @@
         <span class="text-[#CCCCCC] relative top-3">I've always been fascinated by websites, both the web development side of things and the many other aspects that go into making a website what it is. If you check out my skills section, you'll see the technologies I use and the areas I'm interested in.</span>
         <div class="h-[20rem] w-full flex justify-center items-center">
           <div class="h-full w-full relative flex items-center justify-center">
-            <a href="#" class="bg-yellow-theme h-[4rem] w-[12rem] items-center flex justify-center relative">Download CV
+            <a href="https://creativevault.ovh/KarolLiszniewski-figmaCV.pdf" class="bg-yellow-theme h-[4rem] w-[12rem] items-center flex justify-center relative">Download CV
 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-2" width="30px" height="30px">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
