@@ -49,8 +49,12 @@
                 <div class="card__info h-28 block ">
                   <div class="flex flex-col items-center justify-center mt-2">
                     <p class="text-white "><?php the_title(); ?></p>
-                    <a href="https://functional-skills-app.creativevault.ovh/" target="__blank" class="card__btn w-24 mt-2 mb-2">Live Demo</a>
-                    <a href="https://functional-skills-app.creativevault.ovh/" target="__blank" class="card__btn w-24">Read More</a>
+                    <?php
+                    $external_url = get_post_meta($post->ID, '_project_url', true);
+                    if ($external_url): ?>
+                      <a href="<?= esc_url($external_url); ?>" target="__blank" class="card__btn w-24 mt-2 mb-2">Live Demo</a>
+                    <?php endif; ?>
+                    <a href="<?= esc_url(get_permalink($post->ID)); ?>" target="__blank" class="card__btn w-24">Read More</a>
                   </div>
 
 
