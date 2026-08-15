@@ -52,7 +52,7 @@
     </div>
 
     <div class="h-full w-full  items-center justify-center hidden md:flex">
-      <img src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\karolLiszniewski-photo.webp" alt="karol liszniewski photo" srcset="" />
+      <img src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/karolLiszniewski-photo.webp" alt="karol liszniewski photo" srcset="" />
     </div>
   </div>
 </section>
@@ -121,7 +121,7 @@
 
         <div class="skills__border">
           <div class="skills__container">
-            <img class="w-[4rem]" alt="Wordpress Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\skillsWebp\wordpresslogo.webp" />
+            <img class="w-[4rem]" alt="Wordpress Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/wordpresslogo.webp" />
           </div>
           <p class="skills__text">Wordpress</p>
         </div>
