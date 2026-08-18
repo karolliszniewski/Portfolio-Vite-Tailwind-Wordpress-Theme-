@@ -17,6 +17,20 @@
     <meta name="twitter:title" content="Karol Liszniewski | Freelance Web Developer">
     <meta name="twitter:image" content="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/portfolio-preview.jpg">
     <link rel="icon" href="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/favico.ico">
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var projects = document.getElementById("projects");
+        if (!projects) return;
+        document.querySelectorAll("a.nav_link").forEach(link => {
+          if (link.textContent.trim() === "Projects") {
+            link.addEventListener("click", function(e) {
+              e.preventDefault();
+              projects.scrollIntoView({ behavior: "smooth" });
+            });
+          }
+        });
+      });
+    </script>
     <?php wp_head() ?>
 </head>
 <body <?php body_class('bg-background-base max-w-[100vw] overflow-x-hidden') ?>>
