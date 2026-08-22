@@ -62,11 +62,6 @@
 <?php get_template_part('template-parts/projects-coding'); ?>
 
 
-<!-- Social Media projects -->
-
-<?php get_template_part('template-parts/projects-social'); ?>
-
-
 
 
 
