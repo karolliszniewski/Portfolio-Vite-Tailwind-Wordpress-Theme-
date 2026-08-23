@@ -44,9 +44,8 @@
                 }
                 ?>
                 ">
-                <img class="card__img" alt="<?= esc_attr($thumbnail_alt) ?>" src="<?= esc_attr($thumbnail_url) ?>" />
-                <h2 class="inline-block "><?php the_title(); ?></h2>
-                <div class="card__info h-28 block ">
+                <div class="card__media"><img class="card__img" alt="<?= esc_attr($thumbnail_alt) ?>" src="<?= esc_attr($thumbnail_url) ?>" /></div>
+                <div class="card__info">
                   <div class="flex flex-col items-center justify-center mt-2">
                     <p class="text-white "><?php the_title(); ?></p>
                     <?php
