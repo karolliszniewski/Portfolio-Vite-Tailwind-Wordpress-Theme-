@@ -14,11 +14,12 @@
 
         <h2 class="text-yellow-theme font-bold text-3xl h-full flex items-center ml-1">Coding Projects</h2>
       </div>
-      <div id="projects" class="h-[65rem] md:h-auto w-full justify-center items-center grid grid-cols-1 md:flex mb-4">
+      <div id="projects" class="md:h-auto w-full justify-center items-start grid grid-cols-1 md:flex flex-wrap mb-4">
         <?php
         $posts = get_posts(array(
           'category_name' => 'projects',
-          'posts_per_page' => 3,
+          'posts_per_page' => -1,
+          'orderby' => array('menu_order' => 'ASC', 'date' => 'DESC'),
         ));
         $i = 0;
         if ($posts) :
@@ -28,22 +29,8 @@
             $thumbnail_alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
             ?>
             <?php $i++; ?>
-            <div class="post">
-              <div id="card1" class="card animateCard1" style="
-                <?php
-                switch ($i) {
-                  case 1:
-                    echo "transform:translateX(-8rem)";
-                    break;
-                  case 2:
-                    echo "transform:translateY(8rem)";
-                    break;
-                  case 3:
-                    echo "transform:translateX(8rem)";
-                    break;
-                }
-                ?>
-                ">
+            <div class="post<?= $i === 1 ? ' post--featured' : '' ?>">
+              <div class="card animateCard1">
                 <div class="card__media"><img class="card__img" alt="<?= esc_attr($thumbnail_alt) ?>" src="<?= esc_attr($thumbnail_url) ?>" /></div>
                 <div class="card__info">
                   <div class="flex flex-col items-center justify-center mt-2">
@@ -51,9 +38,9 @@
                     <?php
                     $external_url = get_post_meta($post->ID, '_project_url', true);
                     if ($external_url): ?>
-                      <a href="<?= esc_url($external_url); ?>" target="__blank" class="card__btn w-24 mt-2 mb-2">Live Demo</a>
+                      <a href="<?= esc_url($external_url); ?>" target="__blank" class="card__btn whitespace-nowrap mt-2 mb-2">Live Demo</a>
                     <?php endif; ?>
-                    <a href="<?= esc_url(get_permalink($post->ID)); ?>" target="__blank" class="card__btn w-24">Read More</a>
+                    <a href="<?= esc_url(get_permalink($post->ID)); ?>" target="__blank" class="card__btn">Read More</a>
                   </div>
 
 
