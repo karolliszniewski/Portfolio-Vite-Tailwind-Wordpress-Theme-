@@ -5,7 +5,7 @@ if (!defined('ABSPATH'))
     exit;
 
 // DEVELOPMENT = TRUE , PRODUCTION = FALSE
-define('IS_VITE_DEVELOPMENT', true);
+define('IS_VITE_DEVELOPMENT', false);
 
 // defining some base urls and paths
 define('DIST_URI', get_template_directory_uri() . '/dist');
