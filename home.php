@@ -165,7 +165,7 @@
 
         <div class="skills__border">
           <div class="skills__container">
-            <img class="w-[5rem]" alt="Jquery Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/jqueryLogo2.webp" />
+            <img class="w-[5rem]" alt="Jquery Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/jquerylogo2.webp" />
           </div>
           <p class="skills__text">Jquery</p>
         </div>
