@@ -48,9 +48,14 @@ add_action('add_meta_boxes', 'add_project_url_meta_box');
 function render_project_url_meta_box($post)
 {
     $project_url = get_post_meta($post->ID, '_project_url', true);
+    $hide_read_more = get_post_meta($post->ID, '_hide_read_more', true);
 ?>
     <label for="project_url">External URL:</label>
     <input type="text" id="project_url" name="project_url" value="<?= esc_attr($project_url); ?>" style="width: 100%;" />
+    <label for="hide_read_more" style="display: block; margin-top: 10px;">
+        <input type="checkbox" id="hide_read_more" name="hide_read_more" value="1" <?php checked($hide_read_more, '1'); ?> />
+        Hide read more button
+    </label>
 <?php
 }
 
@@ -63,6 +68,7 @@ function save_project_url_meta_box($post_id)
             '_project_url',
             sanitize_text_field($_POST['project_url'])
         );
+        update_post_meta($post_id, '_hide_read_more', isset($_POST['hide_read_more']) ? '1' : '');
     }
 }
 add_action('save_post', 'save_project_url_meta_box');

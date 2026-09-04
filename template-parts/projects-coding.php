@@ -40,7 +40,9 @@
                     if ($external_url): ?>
                       <a href="<?= esc_url($external_url); ?>" target="__blank" class="card__btn whitespace-nowrap mt-2 mb-2">Live Demo</a>
                     <?php endif; ?>
-                    <a href="<?= esc_url(get_permalink($post->ID)); ?>" target="__blank" class="card__btn">Read More</a>
+                    <?php if (!get_post_meta($post->ID, '_hide_read_more', true)): ?>
+                      <a href="<?= esc_url(get_permalink($post->ID)); ?>" target="__blank" class="card__btn">Read More</a>
+                    <?php endif; ?>
                   </div>
 
 
