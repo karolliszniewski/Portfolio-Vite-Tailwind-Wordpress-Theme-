@@ -34,11 +34,10 @@
                 }
                 ?>
                 ">
-                <img class="card__img" alt="<?= esc_attr($thumbnail_alt) ?>" src="<?= esc_attr($thumbnail_url) ?>" />
-                <h2><?php the_title(); ?></h2>
+                <div class="card__media"><img class="card__img" alt="<?= esc_attr($thumbnail_alt) ?>" src="<?= esc_attr($thumbnail_url) ?>" /></div>
                 <div class="card__info">
                   <p class="text-white"><?php the_title(); ?></p>
-                  <a href="https://functional-skills-app.creativevault.ovh/" target="__blank" class="card__btn">Read More</a>
+                  <a href="<?= esc_url(get_permalink($post->ID)); ?>" target="__blank" class="card__btn">Read More</a>
                 </div>
               </div>
             </div>

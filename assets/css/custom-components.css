@@ -2,16 +2,26 @@
     .post{
         @apply  w-[95%] lg:w-[33%] mx-auto
     }
+    .post--featured{
+        @apply lg:w-full
+    }
+    .post--featured .card{
+        @apply lg:w-[97%] lg:mr-auto
+    }
     .card {
-        @apply h-[20rem] w-[95%] bg-[#121315] opacity-0 m-auto mb-5 lg:mr-10 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb];
+        @apply h-auto w-[95%] bg-[#121315] opacity-0 m-auto mb-5 lg:mr-10 rounded-xl relative overflow-hidden shadow-lg transition-colors duration-300 border-[#303035] border-4 hover:border-[#aeaebb] flex flex-col;
+    }
+
+    .card__media{
+        @apply w-full aspect-video overflow-hidden bg-[#121315];
     }
 
     .card__img{
-        @apply w-full h-full object-cover transition-transform duration-500 transform hover:scale-105;
+        @apply w-full h-full object-cover object-top transition-transform duration-500 transform hover:scale-105;
     }
 
     .card__info{
-        @apply absolute bg-[#242428] bottom-0 w-full h-10 flex justify-center items-center;
+        @apply bg-[#242428] w-full flex flex-col justify-center items-center py-3;
     }
 
     .card__btn{

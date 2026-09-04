@@ -21,7 +21,12 @@ use KarolPortfolio\Inc\Traits\Singleton;
         /**
          * Actions.
          */
+        add_action('wp_enqueue_scripts', [$this, 'enqueue_assets']);
 
+    }
+
+    public function enqueue_assets(){
+        wp_enqueue_script('jquery');
     }
 
 

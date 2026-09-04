@@ -17,7 +17,7 @@
         <span class="text-[#CCCCCC] relative top-3">I've always been fascinated by websites, both the web development side of things and the many other aspects that go into making a website what it is. If you check out my skills section, you'll see the technologies I use and the areas I'm interested in.</span>
         <div class="h-[20rem] w-full flex justify-center items-center">
           <div class="h-full w-full relative flex items-center justify-center">
-            <a href="#" class="bg-yellow-theme h-[4rem] w-[12rem] items-center flex justify-center relative">Download CV
+            <a href="https://creativevault.ovh/KarolLiszniewski-figmaCV.pdf" class="bg-yellow-theme h-[4rem] w-[12rem] items-center flex justify-center relative">Download CV
 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-2" width="30px" height="30px">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
@@ -52,7 +52,7 @@
     </div>
 
     <div class="h-full w-full  items-center justify-center hidden md:flex">
-      <img src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\karolLiszniewski-photo.webp" alt="karol liszniewski photo" srcset="" />
+      <img src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/karolLiszniewski-photo.webp" alt="karol liszniewski photo" srcset="" />
     </div>
   </div>
 </section>
@@ -60,11 +60,6 @@
 
 <!-- Coding projects -->
 <?php get_template_part('template-parts/projects-coding'); ?>
-
-
-<!-- Social Media projects -->
-
-<?php get_template_part('template-parts/projects-social'); ?>
 
 
 
@@ -79,34 +74,27 @@
       </div>
 
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – Present</div>
-        <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
+        <div id="experience-date1" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2025 – Present</div>
+        <div id="experience-title1" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Freelance Web Developer</div>
         <div id="experience-company1" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
       </div>
 
-
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2014 - 10/2014</div>
-        <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
-        <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">TAILORED RECRUITMENT SVS LTD </div>
+        <div id="experience-date2" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">09/2024 – 02/2025</div>
+        <div id="experience-title2" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Junior Magento Backend Developer</div>
+        <div id="experience-company2" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Aware Digital</div>
       </div>
 
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">05/2013 – 07/2013</div>
-        <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> WAREHOUSE OPERATIVE</div>
-        <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">ASSIST RESOURCING UK LTD</div>
+        <div id="experience-date3" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">01/2016 – 09/2024</div>
+        <div id="experience-title3" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> Online Sales (Dropshipping)</div>
+        <div id="experience-company3" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Self-Employed</div>
       </div>
 
       <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">04/2013 – 05/2013</div>
-        <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="UK flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/ukflag.webp" /> DEPARTMENT INDUSTRY </div>
-        <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">GAP PERSONNEL</div>
-      </div>
-
-      <div class="border-with-circle relative h-auto pb-14 border-l border-yellow-theme">
-        <div id="experience-date5" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
-        <div id="experience-title5" class="text-white ml-14 mt-2 text-2xl translate-x-15 -translate-y-10"><img alt="Poland flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
-        <div id="experience-company5" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
+        <div id="experience-date4" class="text-[#959596] ml-14 relative -top-3 translate-x-10 translate-y-10">08/2012 - 11/2012</div>
+        <div id="experience-title4" class="text-white ml-14 mt-2 text-2xl translate-x-16"> <img alt="Poland flag" class="w-[1rem] mr-2" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/polandflag.webp" /> SEO Specialist (Internship)</div>
+        <div id="experience-company4" class="relative text-[#959596] ml-14 top-1 text-sm -translate-x-16 translate-y-10">Trader Team Sp. z o.o - Internet Marketing/Web design </div>
       </div>
     </div>
   </div>
@@ -128,7 +116,7 @@
 
         <div class="skills__border">
           <div class="skills__container">
-            <img class="w-[4rem]" alt="Wordpress Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>\assets\img\skillsWebp\wordpresslogo.webp" />
+            <img class="w-[4rem]" alt="Wordpress Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/wordpresslogo.webp" />
           </div>
           <p class="skills__text">Wordpress</p>
         </div>
@@ -177,7 +165,7 @@
 
         <div class="skills__border">
           <div class="skills__container">
-            <img class="w-[5rem]" alt="Jquery Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/jqueryLogo2.webp" />
+            <img class="w-[5rem]" alt="Jquery Logo" src="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/skillsWebp/jquerylogo2.webp" />
           </div>
           <p class="skills__text">Jquery</p>
         </div>

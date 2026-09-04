@@ -3,7 +3,34 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Karol Liszniewski | Freelance Web Developer</title>
+    <meta name="description" content="Portfolio of Karol Liszniewski, freelance web developer from Stoke-on-Trent. WordPress, PHP and JavaScript projects.">
+    <meta name="author" content="Karol Liszniewski">
+    <link rel="canonical" href="<?= home_url('/') ?>">
+    <meta property="og:title" content="Karol Liszniewski | Freelance Web Developer">
+    <meta property="og:description" content="Portfolio of Karol Liszniewski, freelance web developer from Stoke-on-Trent.">
+    <meta property="og:image" content="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/portfolio-preview.jpg">
+    <meta property="og:url" content="<?= home_url('/') ?>">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Karol Liszniewski | Freelance Web Developer">
+    <meta name="twitter:image" content="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/portfolio-preview.jpg">
+    <link rel="icon" href="<?= PORTFOLIOKAROL_DIR_URI ?>/assets/img/favico.ico">
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var projects = document.getElementById("projects");
+        if (!projects) return;
+        document.querySelectorAll("a.nav_link").forEach(link => {
+          if (link.textContent.trim() === "Projects") {
+            link.addEventListener("click", function(e) {
+              e.preventDefault();
+              projects.scrollIntoView({ behavior: "smooth" });
+            });
+          }
+        });
+      });
+    </script>
     <?php wp_head() ?>
 </head>
 <body <?php body_class('bg-background-base max-w-[100vw] overflow-x-hidden') ?>>
