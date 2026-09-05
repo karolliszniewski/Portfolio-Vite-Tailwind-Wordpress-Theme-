@@ -1,13 +1,20 @@
 {
+  "assets/fonts/Kaushan_Script/KaushanScript-Regular.woff2": {
+    "file": "assets/KaushanScript-Regular-addcc80d.woff2",
+    "src": "assets/fonts/Kaushan_Script/KaushanScript-Regular.woff2"
+  },
   "main.css": {
-    "file": "assets/main-f4e7c87a.css",
+    "file": "assets/main-9d71f8bf.css",
     "src": "main.css"
   },
   "main.js": {
-    "css": [
-      "assets/main-f4e7c87a.css"
+    "assets": [
+      "assets/KaushanScript-Regular-addcc80d.woff2"
     ],
-    "file": "assets/main-08a4af78.js",
+    "css": [
+      "assets/main-9d71f8bf.css"
+    ],
+    "file": "assets/main-b34398cf.js",
     "isEntry": true,
     "src": "main.js"
   }

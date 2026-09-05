@@ -4,7 +4,6 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Karol Liszniewski | Freelance Web Developer</title>
     <meta name="description" content="Portfolio of Karol Liszniewski, freelance web developer from Stoke-on-Trent. WordPress, PHP and JavaScript projects.">
     <meta name="author" content="Karol Liszniewski">
     <link rel="canonical" href="<?= home_url('/') ?>">

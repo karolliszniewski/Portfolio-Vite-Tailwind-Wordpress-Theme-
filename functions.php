@@ -72,3 +72,21 @@ function save_project_url_meta_box($post_id)
     }
 }
 add_action('save_post', 'save_project_url_meta_box');
+
+
+function karolPortfolio_title_parts($parts)
+{
+    if (is_front_page()) {
+        $parts['title']   = 'Karol Liszniewski';
+        $parts['tagline'] = 'Freelance Web Developer';
+        unset($parts['site']);
+    }
+    return $parts;
+}
+add_filter('document_title_parts', 'karolPortfolio_title_parts');
+
+function karolPortfolio_title_separator($sep)
+{
+    return '|';
+}
+add_filter('document_title_separator', 'karolPortfolio_title_separator');
