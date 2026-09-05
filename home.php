@@ -12,9 +12,9 @@
       <div class="m-auto ">
         <h1 class="text-6xl 2xl:text-7xl font-bold text-white">
           Hi, I'm Karol!<br />
-          Passionate <span class="text-yellow-theme">coder</span>
+          Freelance <span class="text-yellow-theme">developer</span>
         </h1>
-        <span class="text-[#CCCCCC] relative top-3">I've always been fascinated by websites, both the web development side of things and the many other aspects that go into making a website what it is. If you check out my skills section, you'll see the technologies I use and the areas I'm interested in.</span>
+        <span class="text-[#CCCCCC] relative top-3">I build and maintain websites in WordPress, PHP and JavaScript. Custom themes and ACF builds, WooCommerce, and inherited codebases that need untangling. Based in Stoke-on-Trent, working with businesses and agencies across the UK.</span>
         <div class="h-[20rem] w-full flex justify-center items-center">
           <div class="h-full w-full relative flex items-center justify-center">
             <a href="https://creativevault.ovh/KarolLiszniewski-figmaCV.pdf" class="bg-yellow-theme h-[4rem] w-[12rem] items-center flex justify-center relative">Download CV
