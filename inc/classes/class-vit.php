@@ -29,31 +29,27 @@
     }
 
     public function vite_production(){
-                // read manifest.json to figure out what to enqueue
-                $manifest = json_decode( file_get_contents( DIST_PATH . '/manifest.json'), true );
-        
-                if (is_array($manifest)) {
-                
-                    // get first key, by default is 'main.js' but it can change
-                    $manifest_key = array_keys($manifest);
-                    if (isset($manifest_key[0])) {
-        
-        
-                        // enqueue CSS files
-                        $css_file = $manifest[$manifest_key[0]]['file'];
-                        if(!empty($css_file)) {
-                            wp_enqueue_style( 'main', DIST_URI . '/' . $css_file );
-                        }
-                        
-                        // enqueue main JS file
-                        $js_file = @$manifest[$manifest_key[1]]['file'];
-                        if ( ! empty($js_file)) {
-                            wp_enqueue_script( 'main', DIST_URI . '/' . $js_file, [], '', true );
-                        }
-                        
-                    }
-        
-                }
+        // Read manifest.json and enqueue BY NAME. This used to take the first two keys by position,
+        // which broke as soon as a bundled asset (a font) was added and shifted the order.
+        $manifest = json_decode( file_get_contents( DIST_PATH . '/manifest.json'), true );
+
+        if ( ! is_array($manifest) || empty($manifest['main.js']) ) {
+            return;
+        }
+
+        $entry = $manifest['main.js'];
+
+        // every stylesheet the entry pulls in
+        foreach ( (array) ( $entry['css'] ?? [] ) as $i => $css_file ) {
+            if ( ! empty($css_file) ) {
+                wp_enqueue_style( 'main' . ( $i ? '-' . $i : '' ), DIST_URI . '/' . $css_file );
+            }
+        }
+
+        // main JS file
+        if ( ! empty($entry['file']) ) {
+            wp_enqueue_script( 'main', DIST_URI . '/' . $entry['file'], [], '', true );
+        }
     }
 
 
