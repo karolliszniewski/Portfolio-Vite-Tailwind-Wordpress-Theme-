@@ -17,7 +17,8 @@ gsap.registerPlugin(ScrollTrigger)
     })
 
 
-    // Projects Social
+    // Projects Social - only on pages that actually have the section
+    if(document.querySelector("#projects2")){
     gsap.to(`.animateCard2`, {
         x:0,
         y:0,
@@ -28,6 +29,7 @@ gsap.registerPlugin(ScrollTrigger)
     
         scrollTrigger:"#projects2"
     })
+    }
 
 
 for(let i = 1;i<=4;i++){
