@@ -33,6 +33,10 @@
         @apply h-40 w-[6rem] md:h-64 md:w-[9.5rem] m-3 translate-x-32 opacity-0 mb-6 md:mb-0
     }
 
+    .hero__reveal{
+        @apply opacity-0 translate-y-8
+    }
+
     .skills__container{
         @apply h-32 w-[5rem] md:h-56 md:w-[10rem] border border-[#696969] rounded-full overflow-hidden flex justify-center items-center transition-all hover:border-yellow-theme
     }

@@ -4,6 +4,16 @@ import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger)
 
+// Hero
+gsap.to(`.hero__reveal`, {
+    x:0,
+    y:0,
+    opacity:1,
+    duration:1,
+    stagger:.15,
+    delay:.2
+})
+
 // Projects Coding
     gsap.to(`.animateCard1`, {
         x:0,
